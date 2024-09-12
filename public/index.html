@@ -1,0 +1,40 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Adventure Game</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>Math Adventure Game</h1>
+
+    <!-- Start button to initiate the game -->
+    <button id="start-game-btn">Start Game</button>
+
+    <!-- Problem container for displaying math problems -->
+    <div id="problem-container" style="display:none;">
+      <h2>Solve the Problem:</h2>
+      <p id="problem-text"></p> <!-- Placeholder for problem question -->
+      <input type="text" id="user-answer" placeholder="Enter your answer">
+      <button id="submit-answer-btn">Submit Answer</button>
+    </div>
+
+    <!-- Feedback UI for showing correct/incorrect answers -->
+    <div id="feedback-container" style="display:none;">
+      <p id="feedback-message"></p> <!-- Placeholder for feedback messages -->
+    </div>
+
+    <!-- Plane traversal UI -->
+    <div id="plane-traversal" style="display:none;">
+      <h2>Planes</h2>
+      <ul id="plane-list"></ul> <!-- List of planes for traversal -->
+    </div>
+  </div>
+
+  <!-- Include the main game script -->
+  <script src="./src/main.js" type="module"></script>
+</body>
+</html>

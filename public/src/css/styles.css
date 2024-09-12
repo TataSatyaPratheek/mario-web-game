@@ -1,0 +1,55 @@
+/* src/css/styles.css */
+
+/* Problem input field styles */
+#problem-container {
+  margin-top: 20px;
+}
+
+#problem-container p {
+  font-size: 20px;
+}
+
+#answerInput {
+  padding: 10px;
+  font-size: 18px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* Feedback message styles */
+.feedback {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.feedback.success {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.feedback.error {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Other basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#game-container {
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
